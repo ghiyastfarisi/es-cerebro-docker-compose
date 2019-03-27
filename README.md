@@ -11,6 +11,7 @@
 
 ## how to run ?
 
-1. run add containers `docker-compose up -d`
-2. run cerebro only `docker-compose up -d cerebro`
-3. run elasticsearch service only `docker-compose up -d elasticsearch`
+1. cd to root docker-compose folder
+2. run all containers `docker-compose up -d`
+3. run cerebro only `docker-compose up -d cerebro`
+4. run elasticsearch service only `docker-compose up -d elasticsearch`
