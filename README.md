@@ -6,5 +6,5 @@
 ## how to ?
 
 1. run cerebro build image inside cerebro folder `docker build -t cerebro:development .`
-2. create docker network using name `local_docker_network`
+2. create docker network using name local_docker_network `docker network create local_docker_network`
 3. run within docker-compose file `docker-compose up -d`
