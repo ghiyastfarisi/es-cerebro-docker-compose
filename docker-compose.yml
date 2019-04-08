@@ -15,7 +15,7 @@ services:
     restart: always
   cerebro:
     container_name: cerebro
-    image: cerebro:development
+    image: lmenezes/cerebro
     ports: 
       - "9000:9000" 
     restart: always
